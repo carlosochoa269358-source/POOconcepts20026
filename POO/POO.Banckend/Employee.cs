@@ -1,4 +1,4 @@
-﻿using POO.Banckend;
+﻿using POO.Backend;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -31,8 +31,16 @@ namespace POO.Backend;
         public override string ToString()
         {
             return $"{Id}\t{FirstName} {LastName}\n\t" +
-                $"Value to pay: {GetValueToPay}";
+                $"Value to pay: {GetValueToPay(),20:C2}";
         }
-        public abstract decimal GetValueToPay();
+    public abstract decimal GetValueToPay();
+        private decimal validateSalary(decimal salary)
+        {
+            if (salary < 2000000)
+            {
+                throw new ArgumentOutOfRangeException(nameof(salary), "Salary must be a greathest than $2,000,000.");
+            }
+            return salary;
+        }
     }
 

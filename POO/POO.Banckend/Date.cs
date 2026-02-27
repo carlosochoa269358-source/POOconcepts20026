@@ -1,4 +1,4 @@
-﻿namespace POO.Banckend;
+﻿namespace POO.Backend;
 
 public class Date
 {
