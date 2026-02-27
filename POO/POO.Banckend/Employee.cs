@@ -31,7 +31,7 @@ namespace POO.Backend;
         public override string ToString()
         {
             return $"{Id}\t{FirstName} {LastName}\n\t" +
-                $"Value to pay: {GetValueToPay(),20:C2}";
+                $"Value to pay.....: {GetValueToPay(),20:C2}";
         }
     public abstract decimal GetValueToPay();
         private decimal validateSalary(decimal salary)
