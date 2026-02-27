@@ -46,10 +46,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="POO.Backend.CommisionEmployee">
-    <Position X="3.75" Y="2" Width="2.25" />
+    <Position X="3.75" Y="0.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAIAAAAAAEAAAABAAAAIAQAAAIAAgAAAAAAAA=</HashCode>
       <FileName>CommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO.Backend.BaseCommisionEmployee">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
