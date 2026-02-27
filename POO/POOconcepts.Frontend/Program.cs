@@ -13,7 +13,10 @@ try
     employes.Add(employee3);
     var employee4 = new HourlyEmployee(4040, "Kevin", "rua", true, new Date(1998, 8, 20), new Date(2021, 6, 1), 10000, 112);
     employes.Add(employee4);
-
+    var employee5 = new CommisionEmployee(5050, "Sofia", "Gomez", true, new Date(1992, 12, 10), new Date(2018, 3, 1), 0.03f, 600000000);
+    employes.Add(employee5);
+    var employee6 = new CommisionEmployee(6060, "Diego", "Martinez", true, new Date(1985, 9, 25), new Date(2015, 7, 1), 0.03f, 120000000);
+    employes.Add(employee6);
     foreach (var employee in employes)
     {
         Console.WriteLine(new string('-', 47));
