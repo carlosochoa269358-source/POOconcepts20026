@@ -24,13 +24,13 @@ try
 
     foreach (var employee in employes)
     {
-        Console.WriteLine(new string('-', 47));
+        Console.WriteLine(new string('-', 50));
         Console.WriteLine(employee);
         payroll += employee.GetValueToPay();
 
     }
-    Console.WriteLine(new string('-', 47));
-    Console.WriteLine($"Payroll..................: {payroll,20:C2}");
+    Console.WriteLine(new string('=', 50));
+    Console.WriteLine($"Payroll.....................: {payroll,20:C2}");
 }
 catch (Exception ex)
 {
