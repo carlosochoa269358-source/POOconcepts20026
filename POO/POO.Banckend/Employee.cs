@@ -1,11 +1,7 @@
-﻿using POO.Backend;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace POO.Backend;
-    public abstract class Employee
-    {
+    public abstract class Employee : IPay
+{
         // constructors
         protected Employee(int id, string firstname, string lastnaName, bool isActive, Date bornDate, Date hireDate)
         {
